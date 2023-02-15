@@ -6,26 +6,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./form.css">
     <title>FORM</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     
     <form action="">
-        <h2 class="bull">Sign Up Form</h2>
-        <label for=" {
-            color: chartreuse;">First Name
+        <h2 class="bull" ><i class="fa fa-user-plus" aria-hidden="true"></i>Sign Up Form</h2>
+        <label for="" class="bull
+        ">First Name
         </label>
 <input type="text"First Name="" id="" required>
-<label for="">Last name</label>
+<label for="" class="bull
+">Last name</label>
 <input type="text" name="" id="">
-<label for="" class=".bull">Enter your e-mail</label>
+<label for="" class="bull">Enter your e-mail</label>
 <input type="text" name="" id="">
 <label for="" class="pswd">Password</label>
-<input type="text" name="" id="" required placeholder="Enter your password"> 
+<input type="text" name="" id="" required placeholder="Enter your password">
+<label for="">Gender</label> 
+<input type="radio" name="Gender" id="" class="input-radio" value="male">Male
+<input type="radio" name="Gender" id="" class="input-radio" value="female"> Female
+<input type="radio" name="Gender" id="" class="input-radio" value="ohers">Others
+<fieldset>
+    <legend>Select your courses</legend>
+    <input type="checkbox" name="courses" id="" class="input-radio">Frontend
+    <input type="checkbox" name="courses" id="" class="input-radio">Backend
+    <input type="checkbox" name="courses" id="" class="input-radio">Data Analytic
+    <input type="checkbox" name="courses" id="" class="input-radio">UI/UX
+</fieldset>
+<select name="schools" id="">
+    <option value="">Choose your school</option>
+    <option value="rsust">RSUST</option>
+    <option value="uniport">UNIPORT</option>
+    <option value="unn">UNN</option>
+    <option value="absu">ABSU</option>
+</select>
+<input type="date" name="" id="">
+<input type="datetime-local" name="" id="">
+<input type="file" name="" id="">
+<input type="range" name="" id="">
 <br>
 <input type="button" value="REGISTER">
 <button>
-    Sign Up
-    <img src="../images/Logo.png" alt="" width="20px" height="20px">
+    Sign Up <i class="fa fa-paper-plane" aria-hidden="true"></i>
+    <!-- <img src="../images/Logo.png" alt="" width="20px" height="20px"> -->
 </button>
 </form>
 </body>
